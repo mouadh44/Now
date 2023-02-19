@@ -2,13 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;   
+
 }
 
+
+html, body {
+ Height:100%;}
 body{
     background-color: rgba(116, 255, 223, 0.393);
-     Height: 100vh;
-     Width :100vh;
-Position: relative;
+     Display: flex;
+Justify-content: centre ;
+aligne-items : center;
 }
 
 
