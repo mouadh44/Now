@@ -1,5 +1,5 @@
-const splitContainer = document.getElementById("split-card");
-const cards = document.querySelectorAll(".card");
+const splitContainer = document.getElementById("split-cards");
+const cards = document.querySelectorAll(".cards");
 
 cards.forEach(card => {
     const newDiv = document.createElement("div");
