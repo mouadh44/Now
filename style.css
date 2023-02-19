@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: rgba(116, 255, 223, 0.393);
+}
+
+
+
+.split-container{
+    background-color: rgba(116, 255, 255, 0.224);
+    margin: 200px;
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+    padding: 5px 24px;
+    width: 350px;
+    height: 600px;
+    scroll-snap-type: x mandatory;
+    scroll-padding:24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 0rem auto;
+}
+
+
+.clash-card{
+    
+    background: linear-gradient(to bottom,#83e0ff50 0%,#83e0ff50  45%, #ffffff 45%, #ffffff 100% );
+    width: 300px;
+    display: inline-block;
+    margin: auto ;
+    border-radius:  19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px rgb(63, 255, 105, .3);
+    transition: transform 0.7s;
+    
+
+
+    border-bottom-left-radius: 14px ;
+    border-bottom-right-radius:14px;
+    border-top-left-radius: 14px ;
+    border-top-right-radius:14px;
+
+    flex: 100 0 100%;
+    padding: 0;
+    padding-top: 3px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    background-color: rgba(0, 0, 255, 0.368);
+
+}
+
+.clash-card img{
+    position: relative;
+    height: 230px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px ;
+    border-top-right-radius:14px;
+}
+
+.clash-card__level{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #EC9B3B;
+    padding: 2px 0px;
+
+}
+
+.clash-card__unit-name{
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.clash-card__Item-description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 140px;
+}
+
+.clash-card__unit-stats{
+    background: #3bece9;
+    display: block;
+    height: 80px;
+    padding-bottom: 0px;
+
+    .one-third {
+        border-right: 1px solid #BD7C2F;
+    }
+}
+
+.one-third{
+    border-right: 1px solid #0d29291b;
+    width: 33%;
+    float: left;
+    padding: 14px 15px;
+    margin-bottom: 0;
+} 
+
+.no-bored{
+    margin-bottom: 0;
+    border-right: none;
+}
+
+.stat-value{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    white-space: flex;
+}
+
+sup{
+    position: absolute;
+    bottom: 4px;
+    font-size: 45%;
+    margin-left: 2px;
+}
+
+.stat{
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.clash-card__unit-stats{
+    color: white  ;
+    font-weight: 600;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
